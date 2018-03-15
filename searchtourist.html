@@ -15,6 +15,10 @@
             font-family: font_feeding;
             src: url(font/Feeding_a_Moment.otf);
         }
+        @font-face {
+            font-family: font_gothic;
+            src: url(font/AdobeGothicStd-Bold.otf);
+        }
     </style>
 
     <title>Transbuddy</title>
@@ -29,28 +33,28 @@
             <div class="col-sm-12 col-lg-6">
                 <div class="card" style="background-color: #ffffff;padding: 50px">
                     <div class="card-body">
-                        <h5 class="card-title" style="color: #000000;font-family: font_feeding">WE FOUND YOU 10 FRENCH TRANSBUDDY IN BANDUNG</h5>
+                        <h5 class="card-title" style="color: #2196f3;font-family: font_feeding">WE FOUND YOU 10 FRENCH TRANSBUDDY IN BANDUNG</h5>
                         <br>
                         <div class="form-group">
-                            <label for="exampleFormControlSelect2">List Translate</label>
+                            <label for="exampleFormControlSelect2" style="font-family: font_gothic">List TransBuddy</label>
                             <select multiple class="form-control" id="exampleFormControlSelect2">
-                                <option>Gagah</option>
-                                <option>Alfiandi</option>
-                                <option>Pulungan</option>
-                                <option>Garin</option>
-                                <option>Deni</option>
-                                <option>Feni Puspa</option>
-                                <option>Yeremia Joshua</option>
-                                <option>Budi Agung</option>
-                                <option>Deviano</option>
-                                <option>Bunga Lestari</option>
+                                <option style="font-family: font_gothic">Gagah</option>
+                                <option style="font-family: font_gothic">Alfiandi</option>
+                                <option style="font-family: font_gothic">Cahwati</option>
+                                <option style="font-family: font_gothic">Garin</option>
+                                <option style="font-family: font_gothic">Nafiah</option>
+                                <option style="font-family: font_gothic">Feni Puspa</option>
+                                <option style="font-family: font_gothic">Yeremia Joshua</option>
+                                <option style="font-family: font_gothic">Budi Agung</option>
+                                <option style="font-family: font_gothic">Deviano</option>
+                                <option style="font-family: font_gothic">Bunga Lestari</option>
                             </select>
                         </div>
 
                         <div class="input-group mb-3">
                             <input type="text" class="form-control" placeholder="Search" aria-label="Recipient's username" aria-describedby="basic-addon2">
                             <div class="input-group-append">
-                                <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#exampleModal" style="font-family: Adobe Gothic">Search</button>
+                                <button class="btn btn-outline-secondary" type="button" data-toggle="modal" data-target="#exampleModal" style="font-family: font_gothic">Search</button>
                             </div>
                         </div>
 
@@ -65,17 +69,17 @@
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel" style="font-family: Adobe Gothic">Message</h5>
+                        <h5 class="modal-title" id="exampleModalLabel" style="font-family: font_gothic">Message</h5>
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p style="font-family: Adobe Gothic">We Found You A TransBuddy!</p>
+                        <p style="font-family: font_gothic">We Found You A TransBuddy!</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Keluar</button>
-                        <a href="resultsearchtourist.html" class="btn btn-primary">OK</a>
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal" style="font-family: font_gothic">Close</button>
+                        <a href="resultsearchtourist.html" class="btn btn-primary" style="font-family: font_gothic">OK</a>
                     </div>
                 </div>
             </div>
